@@ -33,7 +33,8 @@ public class FireBirdConnect {
            while(resultado.next()){
                String ename=resultado.getString("ename");
                String job=resultado.getString("job");
-               System.out.println(ename+"___"+job);
+               String sal=resultado.getString("sal");
+               System.out.println(ename+" ES "+job+" Y GANA "+sal);
            }
         }catch(Exception e){
             System.out.println(e.getMessage());
