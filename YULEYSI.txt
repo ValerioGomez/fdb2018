@@ -12,7 +12,8 @@ COMM DECIMAL(7,2),
 DEPNO CHAR(2),
 PRIMARY KEY (EMPNO)
 );
-****************************************************************************
+*******************************************************************************
+
 INSERT INTO EMP VALUES(7839,'KING','PRESIDENT',NULL,(date '17-NOV-1981'),5000,NULL,10);
 INSERT INTO EMP VALUES(7369,'SMITH','CLERK',7902,(date '17-DEC-1980'),800,NULL,20);
 INSERT INTO EMP VALUES(7499,'ALLEN','SALESMAN',7698,(date'20-FEB-1981'),1600,300,30);
